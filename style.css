@@ -54,12 +54,16 @@ h1 {
     color: #324759
 }
 
+h2 {
+    color: #324759
+}
+
 p {
     color: #688EA6;
 }
 
 .nome {
-    padding: 50px;
+    padding: 50px 50px 20px 50px;
 }
 
 .form {
@@ -80,11 +84,14 @@ p {
     width: 80px;
     height: 20px;
     border: none;
+    cursor: pointer;
 }
 
 .button:hover {
     background-color: #9CC1D9 ;
     color: #324759;
+    cursor: pointer;
+    
     
 }
 
