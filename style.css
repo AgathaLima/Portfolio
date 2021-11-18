@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#body {
+    text-align: center;
+    background-image: url(imagem/marmore\ \(2\).jpg);
+}
+
+
+/* **** Área Cabeçalho **** */
+
+#fundo_header {
+    background-color: #324759;
+}
+
+.logo {
+    padding: 2px 2px;
+    border: groove black; 
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #9CC1D9;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #9CC1D9;
+    color: #324759;
+}
+
+header > div {
+    padding-bottom: 20px;
+}
+
+/* **** Área de corpo **** */
+
+#about {
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px 300px;
+    padding: 15px;
+    border: groove #BDE3F2 3px;
+
+}
+ 
+h1 {
+    font-size: 50px;
+    color: #324759
+}
+
+p {
+    color: #688EA6;
+}
+
+.nome {
+    padding: 50px;
+}
+
+.form {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 350px;
+    padding: 15px;
+    border: ridge #BDE3F2 3px;
+}
+
+.marginp {
+    padding-bottom: 15px;
+}
+
+.button{
+    background-color: #324759;
+    color: #9CC1D9;
+    width: 80px;
+    height: 20px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #9CC1D9 ;
+    color: #324759;
+    
+}
+
